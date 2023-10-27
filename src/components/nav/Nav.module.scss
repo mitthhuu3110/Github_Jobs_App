@@ -1,0 +1,157 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 40px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secNavbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 0px 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.logoWhite {
+    width: 150px;
+}
+
+.logoBlue {
+    width: 150px;
+}
+
+.loginBtn {
+    font-size: 18px;
+    color: #74849e;
+    font-weight: 500;
+}
+
+.secLoginBtn {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+
+.signupBtn {
+    font-size: 18px;
+    color: white;
+    background-color: #0055D9;
+    border-radius: 2px;
+    width: 100px;
+    height: 40px;
+    font-weight: 500;
+    margin-left: 25px;
+
+    &:hover {
+        background-color: #2275f1;
+    }
+}
+
+.avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.navComponents {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    color: #4D6182;
+    font-weight: 500;
+
+
+}
+
+.home {
+    &:hover {
+        color: #0055D9;
+        cursor: pointer;
+    }
+}
+
+.saved {
+    padding-left: 2vw;
+
+    &:hover {
+        color: #0055D9;
+        cursor: pointer;
+    }
+}
+
+.homeClicked {
+    color: #0055D9;
+}
+
+.savedClicked {
+    padding-left: 2vw;
+    color: #0055D9;
+}
+
+@media screen and (max-width:900px) {
+
+    .secNavbar {
+        padding: 0px 70px;
+    }
+}
+
+@media screen and (max-width:450px) {
+
+    .secNavbar {
+        padding: 0px 40px;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .home {
+        display: none;
+    }
+
+    .saved {
+        display: none;
+    }
+
+    .homeClicked {
+        display: none;
+    }
+
+    .savedClicked {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .navbar {
+        padding: 20px 25px;
+    }
+
+    .logoWhite {
+        width: 100px;
+    }
+
+    .loginBtn {
+        font-size: 14px;
+
+    }
+
+    .signupBtn {
+        font-size: 14px;
+    }
+}
