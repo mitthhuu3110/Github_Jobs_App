@@ -1,1 +1,2 @@
 # Github_Jobs_App
+The aim of this project was to develop a job search website using a React frontend library integrated with an API. The website offers multiple functionalities to improve the user experience. Users can search for jobs based on keywords or job titles. The job listings provide important details such as company name, location, tags, and posting time. When a user selects a job, they can access comprehensive job descriptions and instructions on how to apply.
